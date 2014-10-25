@@ -2,3 +2,10 @@ target*
 .settings
 .project
 .springBeans
+.settings/org.eclipse.jdt.core.prefs
+
+src/main/resources/beans/operations-client.xml
+
+target/classes/beans/operations-client.xml
+
+target/classes/edu/depaul/model/Container.class
