@@ -3,14 +3,13 @@
  */
 package edu.depaul.service;
 
-import edu.depaul.model.Container;
 
 /**
  * Used to interact with the operations db.
  * 
  * @author Paul A. Trzyna
  */
-public interface OperationsService {
+public interface OperationsService<Container> {
 
 	/**
 	 * Inserts a new Container instance or updates the existing one
