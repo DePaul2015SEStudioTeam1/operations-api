@@ -1,7 +1,7 @@
 /**
  * 
  */
-package edu.depaul.model;
+package edu.depaul.operations.model;
 
 import java.io.Serializable;
 

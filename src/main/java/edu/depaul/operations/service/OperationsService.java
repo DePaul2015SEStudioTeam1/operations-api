@@ -1,7 +1,7 @@
 /**
  * 
  */
-package edu.depaul.service;
+package edu.depaul.operations.service;
 
 
 /**
