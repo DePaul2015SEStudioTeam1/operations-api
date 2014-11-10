@@ -3,6 +3,8 @@
  */
 package edu.depaul.operations.service;
 
+import java.util.List;
+
 
 /**
  * Used to interact with the operations db.
@@ -18,5 +20,12 @@ public interface OperationsService<Container> {
 	 * @param container	container we want to save/update
 	 */
 	void store(Container container);
+
+	/**
+	 * Gets all Containers in the db
+	 * 
+	 * @return all containers in the db
+	 */
+	List<Container> getAll();
 	
 }
