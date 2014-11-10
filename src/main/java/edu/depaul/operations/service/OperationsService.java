@@ -28,4 +28,12 @@ public interface OperationsService<Container> {
 	 */
 	List<Container> getAll();
 	
+	/**
+	 * Gets a desired set of records from the db, can be used for pagination
+	 * 
+	 * @param id	start id used for determining the start index of returned records
+	 * @param count	number of records we want returned starting at the offset
+	 * @return list of containers
+	 */
+	List<Container> get(long id, int count);
 }
